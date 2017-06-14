@@ -1,0 +1,59 @@
+/*--------------Universal Selectors-----------*/
+html {
+  background-image: url(../images/IMG_2730.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/*------------ Index Page----------------------*/
+
+p {
+  font-family: sans-serif;
+}
+
+/*--------------Characters Page---------------*/
+.container {
+  display: flex;
+
+
+}
+.logo {
+  shape-outside: auto;
+  max-width: 88%;
+  min-width: 50%;
+}
+
+/*img {
+  width: 40%;
+  height: auto;
+  left: 0;*/
+
+}
+
+.controls {
+  position: absolute;
+  flex-direction: row;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+
+li {
+  flex-direction: row;
+  list-style: none;
+  background-color: purple;
+  border-bottom: 2px;
+
+}
+
+li a  {
+  font-family: 'Pompiere', cursive;
+  text-decoration: none;
+
+
+}
